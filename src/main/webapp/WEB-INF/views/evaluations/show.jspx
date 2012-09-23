@@ -2,12 +2,12 @@
 <div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <page:show id="ps_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation" object="${evaluation}" path="/evaluations" z="q4KvqEjHSnZJWaN2L+h+ZsAP4co=" delete="false" update="false">
+    <page:show delete="false" id="ps_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation" object="${evaluation}" path="/evaluations" update="false" z="user-managed">
         <field:display field="userName" id="s_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_userName" object="${evaluation}" z="KHsQFOkC64OJlu4QbV2cfVPEvFc="/>
-        <field:display showGrading="true" isEnum="true" field="gender" id="s_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_gender" object="${evaluation}" z="pumsx+CfXUm6GISHSyKNLqT7M4Y="/>
-        <field:display showGrading="true" isEnum="true" field="movingSpeed" id="s_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_movingSpeed" object="${evaluation}" z="vX7aUdkwcoaGxdhO3qrcmDLJl7c="/>
-        <field:display showGrading="true" isEnum="true" field="helmetUsage" id="s_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_helmetUsage" object="${evaluation}" z="uWNpm0rH3m7agrjmZPsUXoTwLBw="/>
-        <field:display showGrading="true" isEnum="true" field="parallelLines" id="s_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_parallelLines" object="${evaluation}" z="gL3dAN94U/YMfaamOBbCYzWolSo="/>
-        <field:display showGrading="true" isEnum="true" field="sideOfStreet" id="s_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_sideOfStreet" object="${evaluation}" z="2zq7AK8l9imjXTxxJXdRL5NWNwA="/>
+        <field:display field="gender" id="s_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_gender" isEnum="true" object="${evaluation}" showGrading="true" z="user-managed"/>
+        <field:display field="movingSpeed" id="s_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_movingSpeed" isEnum="true" object="${evaluation}" showGrading="true" z="user-managed"/>
+        <field:display field="helmetUsage" id="s_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_helmetUsage" isEnum="true" object="${evaluation}" showGrading="true" z="user-managed"/>
+        <field:display field="parallelLines" id="s_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_parallelLines" isEnum="true" object="${evaluation}" showGrading="true" z="user-managed"/>
+        <field:display field="sideOfStreet" id="s_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_sideOfStreet" isEnum="true" object="${evaluation}" showGrading="true" z="user-managed"/>
     </page:show>
 </div>

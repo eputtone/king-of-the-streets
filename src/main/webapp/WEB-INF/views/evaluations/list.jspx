@@ -3,13 +3,13 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <page:list id="pl_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation" items="${evaluations}" z="lbQhO7V2v+2dUSXuubJUj2kxOQk=">
-        <table:table data="${evaluations}" id="l_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation" path="/evaluations" z="43QPSzLML4vU2jnF8ybm2RsDsJk=" update="false" delete="false">
+        <table:table data="${evaluations}" delete="false" id="l_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation" path="/evaluations" update="false" z="user-managed">
             <table:column id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_userName" property="userName" z="EsKCqw5tCiH41KzJ356ml/vTlss="/>
-            <table:column isenum="true" id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_gender" property="gender" z="JyuqwS1Np13gSyM7YHbViqfWx38="/>
-            <table:column isenum="true" id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_movingSpeed" property="movingSpeed" z="pdkr7fTWym4bpcLVgoQkilIpA6g="/>
-            <table:column isenum="true" id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_helmetUsage" property="helmetUsage" z="0Gdd8InWoWgkpfGQsf+UvO1kmm8="/>
-            <table:column isenum="true" id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_parallelLines" property="parallelLines" z="m4hGEVKSarDtl2ZF004lOqBoziA="/>
-            <table:column isenum="true" id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_sideOfStreet" property="sideOfStreet" z="RwD6lWZggb0lm+SCWClWCFAPV+U="/>
+            <table:column id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_gender" isenum="true" property="gender" z="user-managed"/>
+            <table:column id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_movingSpeed" isenum="true" property="movingSpeed" z="user-managed"/>
+            <table:column id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_helmetUsage" isenum="true" property="helmetUsage" z="user-managed"/>
+            <table:column id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_parallelLines" isenum="true" property="parallelLines" z="user-managed"/>
+            <table:column id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_sideOfStreet" isenum="true" property="sideOfStreet" z="user-managed"/>
         </table:table>
     </page:list>
 </div>
