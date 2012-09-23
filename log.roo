@@ -1,0 +1,76 @@
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-06-03 19:18:39
+project --topLevelPackage fi.fullerine.kingofthestreets --projectName king-of-the-streets --java 6 --packaging WAR
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-06-03 19:18:40
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-06-03 19:18:45
+jpa setup --provider HIBERNATE --database H2_IN_MEMORY 
+enum type --class ~.domain.commutereval.MovingSpeedEnum
+enum constant --name SLOW
+enum constant --name NORMAL
+enum constant --name FAST
+enum type --class ~.domain.commutereval.HelmetUsageEnum
+enum constant --name USAGE_YES
+enum constant --name USAGE_NO
+enum constant --name USAGE_BY_FEELING
+enum type --class ~.domain.commutereval.ParallelLinesEnum
+enum constant --name TWO
+enum constant --name THREE
+enum constant --name FOUR_OR_MORE
+entity jpa --class ~.domain.commutereval.Evaluation --sequenceName EVALUATION_SEQ
+field string --fieldName userName --sizeMin 1 --sizeMax 30
+enum type --class ~.domain.commutereval.GenderEnum
+enum constant --name MALE
+enum constant --name FEMALE
+focus --class ~.domain.commutereval.Evaluation 
+field enum --fieldName gender --notNull --type ~.domain.commutereval.GenderEnum
+field enum --fieldName movingSpeed --notNull --type ~.domain.commutereval.MovingSpeedEnum
+field enum --fieldName helmetUsage --notNull --type ~.domain.commutereval.HelmetUsageEnum
+field enum --fieldName parallelLines --notNull --type ~.domain.commutereval.ParallelLinesEnum
+enum type --class ~.domain.commutereval.SideOfStreetEnum
+// [failed] enum constant --name RIGHT
+enum constant --name SIDE_RIGHT
+enum constant --name SIDE_LEFT
+enum constant --name SIDE_NO_MATTER
+focus --class ~.domain.commutereval.Evaluation
+field enum --fieldName sideOfStreet --notNull --type ~.domain.commutereval.SideOfStreetEnum
+help test
+test integration --entity ~.domain.commutereval.Evaluation
+web mvc setup
+web mvc scaffold --class ~.web.EvaluationController --backingType ~.domain.commutereval.Evaluation
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+pgp automatic trust
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+help focus
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-06-03 22:06:22
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-06-03 22:08:04
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+help addon
+addon list
+pgp automatic trust
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud
+addon install bundle --bundleSymbolicName org.springframework.roo.addon
+jpa setup --provider HIBERNATE --database POSTGRES 
+jpa setup --provider HIBERNATE --database H2_IN_MEMORY 
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-06-03 23:07:53
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-06-04 19:33:00
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-06-04 19:37:02
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-06-04 19:40:45
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry 
+
+pgp automatic trust pgp automatic trust 
+
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry 
+
+addon list 
+addon search --requiresCommand "cloud foundry"
+addon search cloud
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-06-04 20:00:51
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-06-04 20:03:11
+addon search cloud
+jpa setup --database POSTGRES --provider HIBERNATE 
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry 
+
+security setup
+addon upgrade available
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-06-09 17:49:47

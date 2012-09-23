@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation" modelAttribute="evaluation" path="/evaluations" versionField="Version" z="82spYv7AkYFwshCbjSjbFWA2yTs=">
+        <field:input field="userName" id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_userName" max="30" min="1" required="true" z="7R6Hv3uVa2PDdGwsJhGbS8XkeQ0="/>
+        <field:select field="gender" id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_gender" items="${genderenums}" path="genderenums" required="true" z="jxmRRH5/HqlXlqOCUgLKAhvXnfA="/>
+        <field:select field="movingSpeed" id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_movingSpeed" items="${movingspeedenums}" path="movingspeedenums" required="true" z="mQVG83iF1A6FCiXFd63QvCuQnlE="/>
+        <field:select field="helmetUsage" id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_helmetUsage" items="${helmetusageenums}" path="helmetusageenums" required="true" z="jZt3Bd0aUPbO9Q1rPXVtF5Tkfuw="/>
+        <field:select field="parallelLines" id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_parallelLines" items="${parallellinesenums}" path="parallellinesenums" required="true" z="lcmJB+aRJ/yGJBgIeXQuOChR3Pg="/>
+        <field:select field="sideOfStreet" id="c_fi_fullerine_kingofthestreets_domain_commutereval_Evaluation_sideOfStreet" items="${sideofstreetenums}" path="sideofstreetenums" required="true" z="KvoZ5hNI4AV0FoHWhR5ZBpjZ8FA="/>
+    </form:update>
+</div>
